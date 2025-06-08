@@ -1,0 +1,21 @@
+{
+    "dataset": "china_edu_gdp.csv",
+    "description": "This dataset contains yearly data on primary education enrollment and GDP per capita in China.",
+    "columns": [
+        {
+            "name": "Year",
+            "type": "string",
+            "description": "The calendar year of the record (e.g., 2001, 2002, ...)."
+        },
+        {
+            "name": "Primary Enrollment",
+            "type": "float",
+            "description": "The number of students enrolled in primary education in that year. Some values may be missing."
+        },
+        {
+            "name": "GDP",
+            "type": "float",
+            "description": "The Gross Domestic Product (GDP) per capita in USD for the given year. Some values may be missing."
+        }
+    ]
+}
